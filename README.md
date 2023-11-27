@@ -1,1 +1,1 @@
-# SE_CAMP
+# Test Project in CAMP
