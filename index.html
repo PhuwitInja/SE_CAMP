@@ -6,13 +6,79 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>This us a Heading</h1>
-    <p>This is a paragraph.</p>
-    <ul>
-        <li>A</li>
-        <li>B</li>
-        <li>C</li>
-    </ul>
-    <img src="">
+    <h1>Workshop # HTML-FORM</h1>
+    <form ><b>
+        <label for="ชื่อ">ชื่อ&emsp;&emsp;&emsp;&emsp;&emsp;</label>
+        <input type="text" name="ชื่อ" id="ชื่อ"><br>
+        <label for="สกุล">สกุล&emsp;&emsp;&emsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+        <input type="text" name="สกุล" id="สกุล"><br>
+        <label for="วดป">วัน/เดือน/ปี&emsp;&emsp;&emsp;&emsp;&emsp;</label><br>
+
+        <label for="อายุ">อายุ&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;</label>
+        <input type="text" name="อายุ" id="อายุ"><br>
+        
+        <label for="เพศ">เพศ&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;</label>
+        <input type="radio" name="c_gender" id="ชาย" value="ชาย">
+        <label for="ชาย">ชาย</label>
+        <input type="radio" name="c_gender" id="หญิง" value="หญิง">
+        <label for="หญิง">หญิง</label><br>
+        
+
+    </b></form>
+
+    <form >
+        <b>
+            <label for="รูป">รูป&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+            <input type="button" value="Choose File">
+            <label for="no">No file chosen</label> <br><br><br>
+            <label for="ที่อยู่">ที่อยู่</label><br>
+             &emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&emsp;&nbsp;&nbsp;<textarea rows="6" cols="25"></textarea><br>
+            
+        </b>
+    </form>
+
+    <form>
+        <b>
+            <label for="สิ่งที่ชอบ">สิ่งที่ชอบ&emsp;&emsp;&nbsp;&nbsp;</label>
+            <select name="color" id="color" size="" >
+                <option value="สีแดง">สีแดง</option>
+            <option value="สีฟ้า">สีฟ้า</option>
+            <option value="สีขาว">สีขาว</option>
+            <option value="สีดำ">สีดำ</option>
+            </select></b>
+    </form>
+
+    <form >
+        <b>
+            <label for="เพลง">แนวเพลงที่ชอบ</label>
+            <input type="radio" name="c_song" id="เพื่อชีวิต" value="พื่อชีวิต">
+        <label for="พื่อชีวิต">พื่อชีวิต</label>
+        <input type="radio" name="c_song" id="ลูกทุ่ง" value="ลูกทุ่ง">
+        <label for="ลูกทุ่ง">ลูกทุ่ง</label>
+        <input type="radio" name="c_song" id="อื่นๆ" value="อื่นๆ">
+        <label for="อื่นๆ">อื่นๆ</label>
+
+        
+        </b>
+    </form>
+
+    <form >
+        <b>
+            <br><br>
+            <input type="checkbox" name="confirm" id="confirm" value="yes">
+        <label for="confirm">ยินยอมให้เก็บข้อมมูล</label><br><br>
+        </b>
+    </form>
+
+    <form >
+        <b>
+            <input type="reset" value="Reset">&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+            <input type="submit" value="Submit">
+        </b>
+    </form>
+    
+
+       
+    
 </body>
 </html>
